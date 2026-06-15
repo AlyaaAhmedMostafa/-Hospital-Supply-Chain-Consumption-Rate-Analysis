@@ -217,7 +217,7 @@ With 35% less staff on night shifts maintaining near-identical reported waste an
 
 ---
 
-## ✅ Recommendations & Action Plan
+##  Recommendations & Action Plan
 
 | Priority | Category | Recommendation | Expected Impact |
 |---|---|---|---|
@@ -258,19 +258,19 @@ hospital-supply-chain-analytics/
 │
 └── analysis/
     └── hospital_supply_chain_full_analysis.xlsx ← Full Excel analysis workbook
-        ├── 📊 Dashboard          → Executive KPIs, findings, and summary
-        ├── 📋 Raw Data           → Full 10,500-row dataset with filters
-        ├── 🏥 Ward Analysis      → Ward cost, waste rate, incident tables + charts
-        ├── 💊 Item Analysis      → 15 item types ranked by waste cost + pie/bar charts
-        ├── ⏰ Shift & Disposal   → Shift performance + disposal reason + cross-tab heatmap
-        ├── 📈 Monthly Trends     → 36-month actuals with MoM change formulas + line charts
-        ├── 🔮 Forecasting        → OLS 12-month forecast with ±10% confidence band + charts
-        └── ✅ Recommendations    → 8 prioritized actions with evidence and impact estimates
+        ├──   Insights          → Executive KPIs, findings, and summary
+        ├──   Data           → Full 10,500-row dataset with filters
+        ├──   Ward Analysis      → Ward cost, waste rate, incident tables + charts
+        ├──   Item Analysis      → 15 item types ranked by waste cost + pie/bar charts
+        ├──   Shift & Disposal   → Shift performance + disposal reason + cross-tab heatmap
+        ├──   Monthly Trends     → 36-month actuals with MoM change formulas + line charts
+        ├──   Forecasting        → OLS 12-month forecast with ±10% confidence band + charts
+        └──   Recommendations    → 8 prioritized actions with evidence and impact estimates
 ```
 
 ---
 
-## 🛠️ Methodology Notes
+##  Methodology Notes
 
 - **Waste Rate** = Items Wasted ÷ Items Issued × 100
 - **Waste Cost** = Items Wasted × Unit Cost (USD)
@@ -282,7 +282,7 @@ hospital-supply-chain-analytics/
 
 ---
 
-## 📎 Data Caveats
+##  Data Caveats
 
 - The Jan 2024 partial month was excluded from trend and forecast model training
 - Disposal reason is only populated for records where Items Wasted > 0 (~75% of records)
